@@ -1,0 +1,29 @@
+server:
+  port: 8888
+
+
+cat:
+  Name: jiafeijia
+  Age: 5
+  Huawei: kkk
+  pingugoo: 999
+  lists:
+    -qwe
+    -asd
+    -zxc
+  dog:
+    name: yamli
+
+person:
+  name: wangming
+  en: nan
+  sh: 5
+  age: 18
+  xihuan: nv
+  dog:
+    name: oudi
+    age : 8
+  h: 183
+  w: 143
+  aihai: lanqui
+

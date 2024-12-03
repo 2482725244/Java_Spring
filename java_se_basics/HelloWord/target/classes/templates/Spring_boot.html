@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h1>spring_boot前来报到</h1>
+    <div th:utext = "${msg}"></div>
+    <h3 th:utext = "${msg}"></h3>
+    <div th:text = "${an.getName()}"></div>
+    <div th:text = "${an}"></div>
+    <div th:each = "mstring:${shuzu}" th:utext = "${mstring}"></div>
+    <div th:each = "mstring:${shuzu}" > [[ ${mstring} ]]</div>
+</body>
+</html>
